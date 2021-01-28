@@ -7,11 +7,11 @@ namespace ThreeNumbers
         static void Main(string[] args)
         {
             Console.WriteLine("Enter a number: ");
-            int num1 = Int32.Parse(Console.ReadLine());
+            int num1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter a second number: ");
-            int num2 = Int32.Parse(Console.ReadLine());
+            int num2 = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter a third number: ");
-            int num3 = Int32.Parse(Console.ReadLine());
+            int num3 = int.Parse(Console.ReadLine());
 
             int sum = num1 + num2 + num3;
 
